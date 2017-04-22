@@ -1,0 +1,8 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "typeRoots" : ["./typings"],
+        "noImplicitAny": true,
+        "target": "es5"
+    } 
+}

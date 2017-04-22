@@ -1,0 +1,33 @@
+{
+  "name": "fabric-undoredo",
+  "version": "1.0.0",
+  "description": "Undo Redo and local storage functions for use with fabric.js",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulcredmond/fabric-undoredo.git"
+  },
+  "keywords": [
+    "undo",
+    "redo",
+    "localstorage"
+  ],
+  "author": "Paul Redmond",
+  "license": "MIT",
+  "homepage": "https://github.com/paulcredmond/fabric-undoredo",
+  "devDependencies": {
+    "async": "^2.0.1",
+    "browser-sync": "^2.14.0",
+    "del": "^2.2.1",
+    "fs": "0.0.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-typescript": "^2.13.6",
+    "gulp-watch": "^4.3.9",
+    "jshint": "^2.9.2",
+    "pump": "^1.0.1"
+  }
+}

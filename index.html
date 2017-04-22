@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Fabric - Undo/Redo</title>
+        <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="shortcut icon" href="#" />
+
+        <!--CSS-->
+        <link rel="stylesheet" href="css/fabric-undoredo.css">
+
+    </head>
+    <body>
+        <div class="fabric-canvas-wrapper">
+            <div class="fabric-canvas-toolbar">
+                <form id="fabric-dm" class="fabric-dm">
+                    <label for="fabric-dmo">Drawing Mode: <span id="fabric-dmOnOff">On</span></label>
+                    <input type="radio" name="fabric-dmo" value="on" checked>
+                    <input type="radio" name="fabric-dmo" value="off">
+                </form>
+                <button id="fabric-undo">Undo</button>
+                <button id="fabric-redo">Redo</button>
+                <span class="spacer"></span>
+                <button id="fabric-save">Save</button>
+                <button id="fabric-load">Load</button>
+            </div>
+            <canvas id="fabric-Canvas" role="application">
+                <p>Your browser does not support the HTML5 canvas element.</p>
+            </canvas>
+        </div>
+
+        <!--JavaScript-->
+        <script src="js/fabric.min.js"></script>
+        <script src="js/fabric-undoredo.js"></script>
+        
+    </body>
+</html>

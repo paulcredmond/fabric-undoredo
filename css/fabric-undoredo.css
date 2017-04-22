@@ -1,0 +1,32 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.fabric-canvas-wrapper {
+    padding: 20px;
+    text-align: center;
+}
+
+.fabric-canvas-toolbar {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.fabric-dm {
+    margin-bottom: 10px;
+}
+
+#fabric-dmOnOff {
+    font-weight: 800;
+}
+
+.spacer {
+    margin: 0 10px;
+}
+
+.canvas-container {
+    border: 1px solid #444;
+    margin: 0 auto;
+}
+
